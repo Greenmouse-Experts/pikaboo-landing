@@ -84,7 +84,7 @@ const FeatureSection = () => {
                 </div>
               </div>
             </div>
-            <div className="w-5/12">
+            <div className="lg:w-5/12 mt-12 lg:mt-0">
               <Image
                 src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687187357/pikaboo/Group_46789_ltvmoq.png"
                 alt="video"
@@ -98,9 +98,9 @@ const FeatureSection = () => {
       </div>
       <div className="bg-pattern h-[250px]">
         <div className="box h-full">
-            <div className="h-full flex items-center justify-between">
-                <p className="text-white w-8/12">This Application is available to Waste Management jurisdictions for a small fee for deployment in local areas to facilitate clean up purposed.</p>
-                <p className="px-8 rounded-[30px] lg:px-12 lg:py-4 py-3 border text-white"><Link href='/'>Contact Us</Link></p>
+            <div className="h-full lg:flex items-center justify-between">
+                <p className="text-white pt-8 lg:pt-0  lg:w-8/12">This Application is available to Waste Management jurisdictions for a small fee for deployment in local areas to facilitate clean up purposed.</p>
+                <p className="w-48 mt-6 lg:mt-0 lg:w-auto text-center px-8 rounded-[30px] lg:px-12 lg:py-4 py-3 border text-white"><Link href='/'>Contact Us</Link></p>
             </div>
         </div>
       </div>

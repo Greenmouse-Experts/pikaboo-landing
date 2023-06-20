@@ -17,7 +17,7 @@ const ControlSection = () => {
             to your preferred user type on the Pika Boo app.
           </p>
           <div className="mt-7 lg:mt-16 grid lg:grid-cols-3 gap-12">
-            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#9AD3CC] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#9AD3CC] flex items-end p-4 lg:p-12">
               <p className="fw-500">
                 Get signed in to preferred user type on the app.
               </p>
@@ -29,7 +29,7 @@ const ControlSection = () => {
                 className="absolute w-24 lg:w-44 top-0 right-0"
               />
             </div>
-            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#EEEDEA] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#EEEDEA] flex items-end p-4 lg:p-12">
               <p className="fw-500">
               Request for waste pickup in any location.
               </p>
@@ -41,7 +41,7 @@ const ControlSection = () => {
                 className="absolute w-24 lg:w-44 top-0 right-0"
               />
             </div>
-            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#E8CAA2] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#E8CAA2] flex items-end p-4 lg:p-12">
               <p className="fw-500">
               Get paid to pickup waste in your preferred area.
               </p>

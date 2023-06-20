@@ -51,14 +51,14 @@ const FaqSection = () => {
                   <AccordionItem key={index}>
                     {({ open }) => (
                       <>
-                        <AccordionHeader className="w-full border-t p-2 lg:p-4">
+                        <AccordionHeader className="w-full border-t py-4 lg:p-4">
                           <div className="w-full flex  justify-between items-center">
                             <p className="fw-500 text-left">{item.title}</p>
                             {open ? <BiMinus /> : <BiPlus />}
                           </div>
                         </AccordionHeader>
                         <AccordionBody>
-                          <div className="accordion-body px-3 pb-6 mt-2 text-black">
+                          <div className="accordion-body lg:px-3 pb-6 mt-2 text-black">
                             {item.content}
                           </div>
                         </AccordionBody>

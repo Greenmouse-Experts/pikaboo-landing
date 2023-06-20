@@ -46,7 +46,7 @@ const HeroPage = () => {
                   alt="logo"
                   width={200}
                   height={130}
-                  className="w-16 lg:w-32 mx-auto lg:m-0"
+                  className="w-24 lg:w-32 mx-auto lg:m-0"
                 />
               </div>
             </div>
