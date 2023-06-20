@@ -4,16 +4,44 @@ import React from "react";
 const OverviewSection = () => {
   return (
     <>
-      <div className="section">
+      <div className="section bg-[#EEEDEA]">
         <div className="box">
-          <div className="flex items-center">
-            <div className="lg:w-6/12">
+          <div className="flex gap-x-16 items-center">
+            <div className="lg:w-6/12 h-[400px] relative">
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180761/pikaboo/Group_46820_yrf09f.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264888/pikaboo/Group_48027_bfk7sw.gif"
                 alt="logo"
-                width={800}
-                height={800}
-                className="w-10/12 lg:w-9/12 mx-auto"
+                width={200}
+                height={100}
+                className="absolute w-16 lg:w-24 shadoo rounded-[25px] top-[15%] left-[0%x]"
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264888/pikaboo/Group_48024_2_rujfa9.gif"
+                alt="logo"
+                width={200}
+                height={100}
+                className="absolute w-16 lg:w-28 shadoo rounded-[25px] bottom-[15%] right-[10%]"
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264925/pikaboo/Group_48028_1_np68oj.gif"
+                alt="logo"
+                width={200}
+                height={100}
+                className="absolute w-16 lg:w-28 shadoo rounded-[25px] bottom-[15%] "
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264890/pikaboo/Group_48025_egotml.gif"
+                alt="logo"
+                width={200}
+                height={100}
+                className="absolute w-16 lg:w-28 shadoo rounded-[25px] top-[12%] right-[8%]"
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687270333/pikaboo/Group_48026_1_br2jl5.gif"
+                alt="logo"
+                width={200}
+                height={100}
+                className="absolute w-16 lg:w-28 shadoo rounded-[25px] top-[160px] left-[35%]"
               />
             </div>
             <div className="lg:w-6/12">

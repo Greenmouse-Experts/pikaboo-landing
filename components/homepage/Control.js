@@ -4,7 +4,7 @@ import React from "react";
 const ControlSection = () => {
   return (
     <>
-      <div className="section bg-[#F0F4FF]">
+      <div className="section bg-white">
         <div className="box">
           <p className="text-2xl lg:text-4xl fw-600">
             <span className="text-2xl lg:text-4xl fw-600 text-primary">
@@ -17,7 +17,7 @@ const ControlSection = () => {
             to your preferred user type on the Pika Boo app.
           </p>
           <div className="mt-7 lg:mt-16 grid lg:grid-cols-3 gap-12">
-            <div className="relative flex h-[320px] rounded-lg bg-[#9AD3CC] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#9AD3CC] flex items-end p-4 lg:p-12">
               <p className="fw-500">
                 Get signed in to preferred user type on the app.
               </p>
@@ -26,10 +26,10 @@ const ControlSection = () => {
                 alt="logo"
                 width={400}
                 height={400}
-                className="absolute w-44 top-0 right-0"
+                className="absolute w-24 lg:w-44 top-0 right-0"
               />
             </div>
-            <div className="relative flex h-[320px] rounded-lg bg-[#EEEDEA] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#EEEDEA] flex items-end p-4 lg:p-12">
               <p className="fw-500">
               Request for waste pickup in any location.
               </p>
@@ -38,10 +38,10 @@ const ControlSection = () => {
                 alt="logo"
                 width={400}
                 height={400}
-                className="absolute w-44 top-0 right-0"
+                className="absolute w-24 lg:w-44 top-0 right-0"
               />
             </div>
-            <div className="relative flex h-[320px] rounded-lg bg-[#E8CAA2] flex items-end p-4 lg:p-12">
+            <div className="relative flex h-[140px] lg:h-[280px] rounded-lg bg-[#E8CAA2] flex items-end p-4 lg:p-12">
               <p className="fw-500">
               Get paid to pickup waste in your preferred area.
               </p>
@@ -50,7 +50,7 @@ const ControlSection = () => {
                 alt="logo"
                 width={400}
                 height={400}
-                className="absolute w-44 top-0 right-0"
+                className="absolute w-24 lg:w-44 top-0 right-0"
               />
             </div>
           </div>

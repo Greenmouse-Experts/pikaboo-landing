@@ -5,8 +5,8 @@ import React from "react";
 const FeatureSection = () => {
   return (
     <>
-      <div className="box">
-        <div className="section">
+      <div className="section bg-[#D8EFEF]">
+        <div className="box">
           <div className="lg:flex items-center gap-x-6">
             <div className="lg:w-7/12">
               <p className="text-primary text-xl lg:text-4xl fw-600">
