@@ -17,7 +17,7 @@ const HomePage = () => {
         <OverviewSection/>
         <ControlSection/>
         <FeatureSection/>
-        <FaqSection/>
+        <FaqSection header more={5}/>
         <AdvertSection/>
       </Layout>
     </>
