@@ -8,7 +8,7 @@ import {
 } from "react-headless-accordion";
 import { BiMinus, BiPlus } from "react-icons/bi";
 
-const FaqSection = () => {
+const FaqSection = ({ header, more }) => {
   const data = [
     {
       title: "Where is the head office located",
@@ -35,19 +35,38 @@ const FaqSection = () => {
       content:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus assumenda maiores natus? Deleniti odit, iure ipsa, repudiandae temporibus enim impedit labore quis esse vitae, nam beatae iusto voluptatum necessitatibus!",
     },
+    {
+      title: "How do I fund my wallet?",
+      content:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus assumenda maiores natus? Deleniti odit, iure ipsa, repudiandae temporibus enim impedit labore quis esse vitae, nam beatae iusto voluptatum necessitatibus!",
+    },
+    {
+      title: "Is there refund if I lay a complaint?",
+      content:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus assumenda maiores natus? Deleniti odit, iure ipsa, repudiandae temporibus enim impedit labore quis esse vitae, nam beatae iusto voluptatum necessitatibus!",
+    },
+    {
+      title: "How long before I get my waste done in special request?",
+      content:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla minus assumenda maiores natus? Deleniti odit, iure ipsa, repudiandae temporibus enim impedit labore quis esse vitae, nam beatae iusto voluptatum necessitatibus!",
+    },
   ];
   return (
     <>
       <div className="section">
         <div className="box">
           <div className="">
-            <p className="text-center text-2xl lg:text-4xl fw-600">FAQs</p>
-            <p className="mt-4 fw-500 text-center">
-              Frequently Asked Questions
-            </p>
+            {header && (
+              <div>
+                <p className="text-center text-2xl lg:text-4xl fw-600">FAQs</p>
+                <p className="mt-4 fw-500 text-center">
+                  Frequently Asked Questions
+                </p>
+              </div>
+            )}
             <div className="mt-12 w-11/12 lg:w-9/12 border-b mx-auto">
               <Accordion>
-                {data.map((item, index) => (
+                {data.slice(0, more).map((item, index) => (
                   <AccordionItem key={index}>
                     {({ open }) => (
                       <>
@@ -69,9 +88,13 @@ const FaqSection = () => {
               </Accordion>
             </div>
           </div>
-          <div className="lg:mt-24 mt-12 text-center">
-            <Link href='/' className='btn-primary px-6 py-2 fw-500 text-lg'>See More FAQs</Link>
-          </div>
+          {header && (
+            <div className="lg:mt-24 mt-12 text-center">
+              <Link href="/" className="btn-primary px-6 py-2 fw-500 text-lg">
+                See More FAQs
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </>

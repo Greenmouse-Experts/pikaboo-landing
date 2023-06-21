@@ -9,7 +9,7 @@ const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <>
-    <div className=" bg-[#F0F4FF]">
+    <div className={path === "/"? "" : "bg-[#F0F4FF]"}>
     <div className="lg:py-8 py-4 box flex justify-between">
       <div className="">
         <Image
@@ -74,11 +74,6 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" mt-8">
-                <Link href="/services" className="flex items-center gap-x-2">
-                  Services
-                </Link>
-              </li>
-              <li className=" mt-8">
                 <Link href="/faqs" className="flex items-center gap-x-2">
                   FAQs
                 </Link>
@@ -86,6 +81,11 @@ const Header = () => {
               <li className=" mt-8">
                 <Link href="/contact" className="flex items-center gap-x-2">
                   Contact Us
+                </Link>
+              </li>
+              <li className=" mt-8">
+                <Link href="/" className="flex items-center gap-x-2">
+                 Privacy & Policy
                 </Link>
               </li>
             </ul>

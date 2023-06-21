@@ -11,8 +11,8 @@ const ContactPage = () => {
           <div className="bg-[#F0F4FF]">
             <div className="box">
               <div className="py-6 lg:py-0">
-                <div className="flex items-center flex-row-reverse">
-                  <div className="w-6/12">
+                <div className="lg:flex items-center flex-row-reverse">
+                  <div className="lg:w-6/12">
                     <Image
                       src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687266125/pikaboo/Group_48030_2_xef5th.png"
                       alt="about"
@@ -21,7 +21,7 @@ const ContactPage = () => {
                       className="w-11/12  mx-auto"
                     />
                   </div>
-                  <div className="w-6/12">
+                  <div className="lg:w-6/12 my-8 lg:my-0">
                     <p className="text-2xl lg:text-4xl fw-600">
                       Reach out to PikaBoo
                     </p>
@@ -39,7 +39,7 @@ const ContactPage = () => {
               <div className="grid md:grid-cols-3 gap-10">
                 <div className="bg-[#9AD3CC] relative p-4 lg:p-8">
                   <div className="pt-10">
-                    <p className="fw-500 mb-3">Contact Us</p>
+                    <p className="fw-500 mb-3 text-2xl">Contact Us</p>
                     <p className="fs-500">
                       No 14 Pikaboo address, Edo state. Nigeria
                     </p>
@@ -54,7 +54,7 @@ const ContactPage = () => {
                 </div>
                 <div className="bg-[#EEEDEA] relative p-4 lg:p-8">
                   <div className="pt-10">
-                    <p className="fw-500 mb-3">Call Us</p>
+                    <p className="fw-500 mb-3 text-2xl">Call Us</p>
                     <p className="fs-500">07012345678</p>
                     <p className="fs-500">08012345678</p>
                   </div>
@@ -68,7 +68,7 @@ const ContactPage = () => {
                 </div>
                 <div className="bg-[#E8CAA2] relative p-4 lg:p-8">
                   <div className="pt-10">
-                    <p className="fw-500 mb-3">Mail Us</p>
+                    <p className="fw-500 mb-3 text-2xl">Mail Us</p>
                     <p className="fs-500">help@pikaboo.com</p>
                     <p className="fs-500">info@pikaboo.com</p>
                   </div>
