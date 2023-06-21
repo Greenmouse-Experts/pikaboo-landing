@@ -38,7 +38,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="pl-5">
-          <Link href='https://pikaboo.netlify.app/' className="btn-primary py-2 px-6">Sign in</Link>
+          <Link href='/' className="btn-primary py-2 px-6">Sign in</Link>
         </div>
       </div>
       <div className="lg:hidden">
