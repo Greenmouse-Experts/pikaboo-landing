@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
 const HeroPage = () => {
   return (
@@ -8,7 +8,7 @@ const HeroPage = () => {
         <div className="box">
           <div className="bg-[#F0F4FF] lg:my-12 mb-12 xl:mb-24 lg:h-[440px] lg:flex items-center gap-x-12 py-6 lg:py-0 rounded-[20px] flex-row-reverse">
             <div className="lg:w-6/12 lg:h-full relative lg:flex ">
-              <div className="lg:h-[490px] lg:relative -top-12 ">
+              <div className="lg:h-[490px] w-full lg:relative -top-12 ">
               <Image
                 src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687353738/pikaboo/Group_0_ikp3ob.png"
                 alt="logo"
