@@ -20,11 +20,10 @@ const HeroPage = () => {
             </div>
             <div className="lg:w-7/12 lg:p-12 mt-6 lg:mt-0">
               <p className="fw-600 text-primary text-3xl lg:text-4xl text-center lg:text-left">
-                Easy way to <span className="lg:block fw-600 text-3xl lg:text-4xl mt-2">get rid of your garbage</span>
+              	Quick and Easy way to  <span className="lg:block fw-600 text-3xl lg:text-4xl mt-2">get rid of your garbage</span>
               </p>
               <p className="mt-4 lg:mt-7 fw-500 text-center lg:text-left">
-                Download the Pika Boo app today and experience seeamless and
-                stress free solution to all your garbage problems.
+              Subscribe to PikaBoo for a seamless and more efficient waste removal experience.
               </p>
               <div className="flex justify-center lg:justify-start mt-7 gap-x-8">
                 <Image

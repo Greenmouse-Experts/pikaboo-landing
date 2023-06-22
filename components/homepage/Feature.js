@@ -13,8 +13,8 @@ const FeatureSection = () => {
                 Features of the App
               </p>
               <p className="mt-6 fs-500 fw-500 lg:fs-700">
-                Enabling a more efficient management of evacuation resources for
-                maximum impact on the field.
+                Enabling a more cost-effective management of evacuation
+                resources for maximum impact on the field.
               </p>
               <div className="mt-12 lg:mt-16 grid lg:grid-cols-2 gap-12">
                 <div className="">
@@ -29,8 +29,10 @@ const FeatureSection = () => {
                   </div>
                   <p className="fw-600 mt-6">Home Resident</p>
                   <p className="mt-4">
-                    Get your resident database subscribed by a field operator
-                    and order for waste pickup in the comfort of your home.
+                    As a subscribed resident to PikaBoo, you enjoy the benefits
+                    of efficient regular scheduled pickups and swift
+                    personalized call service from the comfort of your home or
+                    office.
                   </p>
                 </div>
                 <div className="">
@@ -45,8 +47,8 @@ const FeatureSection = () => {
                   </div>
                   <p className="fw-600 mt-6">Servicemen</p>
                   <p className="mt-4">
-                    Enroll yourself as a seviceman by a waste manager and earn
-                    while you render waste pickup services.
+                    As a serviceman enrolled by the Waste Manager, you earn
+                    while you render pickup services.
                   </p>
                 </div>
                 <div className="">
@@ -61,9 +63,9 @@ const FeatureSection = () => {
                   </div>
                   <p className="fw-600 mt-6">Requests and Pick-up</p>
                   <p className="mt-4">
-                    Pika Boo mobile application is open to only just Home
-                    resident and Servicemen, to place requests and render pickup
-                    service respectifully.
+                    PikaBoo Mobile Application is open to only Home Residents
+                    and Servicemen, to place requests and render pickup services
+                    respectively.
                   </p>
                 </div>
                 <div className="">
@@ -78,8 +80,9 @@ const FeatureSection = () => {
                   </div>
                   <p className="fw-600 mt-6">In-app Sales</p>
                   <p className="mt-4">
-                    Ability to purchase and pay for waste bins and containers is
-                    made available in-app.
+                    In addition to monthly subscription payments, subscribed
+                    residents can purchase and pay for waste bins and containers
+                    within the App.
                   </p>
                 </div>
               </div>
@@ -98,10 +101,16 @@ const FeatureSection = () => {
       </div>
       <div className="bg-pattern h-[250px]">
         <div className="box h-full">
-            <div className="h-full lg:flex items-center justify-between">
-                <p className="text-white pt-8 lg:pt-0  lg:w-8/12">This Application is available to Waste Management jurisdictions for a small fee for deployment in local areas to facilitate clean up purposed.</p>
-                <p className="w-48 mt-6 lg:mt-0 lg:w-auto text-center px-8 rounded-[30px] lg:px-12 lg:py-4 py-3 border text-white"><Link href='/'>Contact Us</Link></p>
-            </div>
+          <div className="h-full lg:flex items-center justify-between">
+            <p className="text-white pt-8 lg:pt-0  lg:w-8/12">
+              This Application is available to Waste Management jurisdictions
+              for a negotiated fee for deployment in local areas to facilitate
+              general evacuations.
+            </p>
+            <p className="w-48 mt-6 lg:mt-0 lg:w-auto text-center px-8 rounded-[30px] lg:px-12 lg:py-4 py-3 border text-white">
+              <Link href="/">Contact Us</Link>
+            </p>
+          </div>
         </div>
       </div>
     </>
