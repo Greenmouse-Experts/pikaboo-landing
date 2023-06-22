@@ -13,11 +13,11 @@ const Header = () => {
     <div className="lg:py-8 py-4 box flex justify-between">
       <div className="">
         <Image
-          src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1686648026/pikaboo/Group_26_2_cq9sv4.png"
+          src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687429795/pikaboo/Group_48061_m4vob9.png"
           alt="logo"
           width={200}
           height={100}
-          className="w-24 lg:w-36"
+          className="w-28 lg:w-44"
         />
       </div>
       <div className="hidden lg:flex fw-600 gap-x-8 items-center">
@@ -54,7 +54,7 @@ const Header = () => {
         <div className="bg-white relative menu-pop h-full text-black pl-5 pt-8 w-[75%]">
           <div className="mb-16">
             <Image
-              src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1686648026/pikaboo/Group_26_2_cq9sv4.png"
+              src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687429795/pikaboo/Group_48061_m4vob9.png"
               alt="logo"
               width={100}
               height={80}
