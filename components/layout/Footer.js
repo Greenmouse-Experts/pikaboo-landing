@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="pt-12 pb-6">
             <div>
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1686648026/pikaboo/Group_26_2_cq9sv4.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687429795/pikaboo/Group_48061_m4vob9.png"
                 alt="logo"
                 width={200}
                 height={100}
-                className="w-24 lg:w-36"
+                className="w-28 lg:w-44"
               />
               <p className="text-primary fw-500 mt-4">Visit Help Center</p>
             </div>
