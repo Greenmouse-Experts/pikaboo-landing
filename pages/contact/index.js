@@ -41,7 +41,8 @@ const ContactPage = () => {
                   <div className="pt-10">
                     <p className="fw-500 mb-3 text-2xl">Contact Us</p>
                     <p className="fs-500">
-                      No 14 Pikaboo address, Edo state. Nigeria
+                      OPIC Plaza, 26, Mobolaji Bank-Anthony Way, Ikeja, Lagos,
+                      Nigeria
                     </p>
                   </div>
                   <Image
@@ -85,43 +86,66 @@ const ContactPage = () => {
           </div>
           <div className="box py-12">
             <div>
-                <p className="text-xl lg:text-3xl text-center fw-600">Send Us a message</p>
-                <p className="lg:w-6/12 mx-auto fs-500 fw-500 text-center mt-4">To learn more about Pikaboo and for further assistance, please fill in the form below.</p>
-                <div className="mt-6 lg:mt-12">
-                    <form>
-                        <div className="grid lg:grid-cols-2 lg:gap-x-12 gap-6">
-                            <div>
-                                <label>First Name</label>
-                                <input type="text" placeholder="Enter first name" className="p-2 border mt-2 border-gray-600 rounded w-full"/>
-                            </div>
-                            <div>
-                                <label>Last Name</label>
-                                <input type="text" placeholder="Enter last name" className="p-2 border mt-2 border-gray-600 rounded w-full"/>
-                            </div>
-                            <div>
-                                <label>Phone Number</label>
-                                <input type="tel" placeholder="Enter mobile number" className="p-2 border mt-2 border-gray-600 rounded w-full"/>
-                            </div>
-                            <div>
-                                <label>Your Email</label>
-                                <input type="email" placeholder="Enter email address" className="p-2 border mt-2 border-gray-600 rounded w-full"/>
-                            </div>
-                        </div>
-                        <div className="mt-6">
-                            <label>Your Message</label>
-                            <textarea className="p-2 border mt-2 border-gray-600 rounded w-full h-24"/>
-                        </div>
-                        <div className="mt-8">
-                            <button className="btn-primary px-6 py-2">Send Message</button>
-                        </div>
-                    </form>
-                </div>
+              <p className="text-xl lg:text-3xl text-center fw-600">
+                Send Us a message
+              </p>
+              <p className="lg:w-6/12 mx-auto fs-500 fw-500 text-center mt-4">
+                To learn more about Pikaboo and for further assistance, please
+                fill in the form below.
+              </p>
+              <div className="mt-6 lg:mt-12">
+                <form>
+                  <div className="grid lg:grid-cols-2 lg:gap-x-12 gap-6">
+                    <div>
+                      <label>First Name</label>
+                      <input
+                        type="text"
+                        placeholder="Enter first name"
+                        className="p-2 border mt-2 border-gray-600 rounded w-full"
+                      />
+                    </div>
+                    <div>
+                      <label>Last Name</label>
+                      <input
+                        type="text"
+                        placeholder="Enter last name"
+                        className="p-2 border mt-2 border-gray-600 rounded w-full"
+                      />
+                    </div>
+                    <div>
+                      <label>Phone Number</label>
+                      <input
+                        type="tel"
+                        placeholder="Enter mobile number"
+                        className="p-2 border mt-2 border-gray-600 rounded w-full"
+                      />
+                    </div>
+                    <div>
+                      <label>Your Email</label>
+                      <input
+                        type="email"
+                        placeholder="Enter email address"
+                        className="p-2 border mt-2 border-gray-600 rounded w-full"
+                      />
+                    </div>
+                  </div>
+                  <div className="mt-6">
+                    <label>Your Message</label>
+                    <textarea className="p-2 border mt-2 border-gray-600 rounded w-full h-24" />
+                  </div>
+                  <div className="mt-8">
+                    <button className="btn-primary px-6 py-2">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
           <div className="mb-24">
-          <div className="box h-[400px] rounded-lg overflow-hidden">
-            <MapComponent/>
-          </div>
+            <div className="box h-[400px] rounded-lg overflow-hidden">
+              <MapComponent />
+            </div>
           </div>
         </div>
       </Layout>

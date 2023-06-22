@@ -13,8 +13,7 @@ const ControlSection = () => {
             of your environment
           </p>
           <p className="mt-6 fs-500 fw-500 w-8/12">
-            Speeds up the evacuation process for Waste Management by signing up
-            to your preferred user type on the Pika Boo app.
+          	PikaBoo brings speed and efficiency to the evacuation process of Waste Management Authorities as municipalities and cities struggle to handle the rising rate of waste generation.
           </p>
           <div className="mt-7 lg:mt-16 grid lg:grid-cols-3 gap-12">
             <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#9AD3CC] flex items-end p-4 lg:p-12">

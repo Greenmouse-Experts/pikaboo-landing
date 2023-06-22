@@ -50,11 +50,7 @@ const OverviewSection = () => {
                 About <span className="text-primary text-xl lg:text-4xl">Pikaboo</span>
               </p>
               <p className="mt-6 lg:mt-12 fs-500">
-                Pika Boo App brings you in total control of your waste
-                management experience from registering for waste pick up
-                services to applying and purchasing a waste bin to receiving
-                scheduled pick-ups and making personalized pick-up request from
-                anywhere in the world from where you might be.
+              PikaBoo App puts you in total control of your Waste Management from registering for waste pick-up services under a Waste Manager to applying for and purchasing waste bins, receiving scheduled pick-ups and making personalized pick-up requests at your convenience from anywhere you might be in the world.
               </p>
               <div className="grid grid-cols-2 gap-y-8 mt-12">
                 <div className="flex items-center gap-x-4">
