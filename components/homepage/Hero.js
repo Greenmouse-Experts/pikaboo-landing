@@ -18,7 +18,7 @@ const HeroPage = () => {
               />
               </div>
             </div>
-            <div className="lg:w-7/12 lg:p-12 mt-6 lg:mt-0">
+            <div className="lg:w-7/12 lg:p-12 mt-6 lg:mt-0 px-3">
               <p className="fw-600 text-primary text-3xl lg:text-4xl text-center lg:text-left">
               	Quick and Easy way to  <span className="lg:block fw-600 text-3xl lg:text-4xl mt-2">get rid of your garbage</span>
               </p>
