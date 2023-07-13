@@ -89,6 +89,9 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
+            <div className="mt-16">
+          <Link href='https://pikaboo.netlify.app/' className="btn-primary py-2 px-6">Sign in</Link>
+        </div>
           </div>
         </div>
       </div>

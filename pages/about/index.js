@@ -61,27 +61,22 @@ const AboutPage = () => {
           <div className="section lg:py-6">
             <div className="box">
               <div className="lg:flex items-center flex-row-reverse ">
-                <div className="lg:w-6/12 flex justify-end">
+                <div className="lg:w-5/12 flex justify-end">
                   <Image
                     src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264057/pikaboo/Group_48022_3_2_1_rsswbo.png"
                     alt="about"
                     width={700}
                     height={700}
-                    className="lg:w-9/12"
+                    className="lg:w-full"
                   />
                 </div>
-                <div className="lg:w-6/12 lg:pr-5 mt-8 lg:mt-0">
+                <div className="lg:w-7/12 lg:pr-5 mt-8 lg:mt-0">
                   <p className="fw-600 text-2xl">About this App</p>
-                  <p className="mt-6 mb-10">
-                    Pika Boo app enables a more efficient management of
-                    evacuation resources for maximum impact on the field. It
-                    provides a measure of transparency for both residents and
-                    service men (or women) who are signed on as customers within
-                    the ecosystem. On the one hand it is easy for residents to
-                    assess their Waste Managers response rate and on the other
-                    hand, residents can easily be assessed in terms of their
-                    payment obligation to the system.
+                  <p className="mt-6">
+                  Pika Boo App brings you in total control of your waste management experience from registering for waste pick up services to applying and purchasing a waste bin to receiving scheduled pick-ups and making personalized pick-up request from anywhere in the world from where you might be.
                   </p>
+                  <p className="mt-5">It enables a more efficient management of evacuation resources for maximum impact on the field. It provides a measure of transparency for both residents and service men (or women) who are signed on as customers within the ecosystem. On the one hand it is easy for residents to assess their Waste Manager’s response rate and on the other hand, residents can easily be assessed in terms of their payment obligation to the system.</p>
+                  <p className="mt-5 mb-10 ">It speeds up the evacuation process for Waste Managers as it entails the organization of a squad of servicemen to support the clean up process when the full capabilities of the App are unleashed in support of allocated zones. </p>
                   <Link
                     href="/"
                     className="bg-black text-white px-5 py-2 lg:py-3 rounded-lg"
@@ -106,16 +101,10 @@ const AboutPage = () => {
                 </div>
                 <div className="lg:w-6/12 lg:text-end mt-10 lg:mt-0">
                   <p className="fw-600 text-2xl">Use of the App </p>
-                  <p className="mt-6 mb-10">
-                    The use of the App Pika Boo requires the mandatory
-                    generation of a residents’ database to build subscriber
-                    lists in organized service blocks by authorized Field
-                    Operators. In terms of household waste evacuation, the
-                    entire universe of residents is coordinated centrally with
-                    the participation of the Fleet Manager, Field Operators,
-                    Waste Managers and servicemen who are all compensated from
-                    revenues made from subscriber fees.
+                  <p className="mt-6 ">
+                  The use of the App Pika Boo requires the mandatory generation of a residents’ database to build subscriber lists in organized service blocks by authorized Field Operators.  In terms of household waste evacuation, the entire universe of residents is coordinated centrally with the participation of the Fleet Manager, Field Operators, Waste Managers and servicemen who are all compensated from revenues made from subscriber fees.
                   </p>
+                  <p className="mt-5 mb-10">This Application is available to Waste Management jurisdictions for a small fee for deployment in local areas to facilitate clean up purposed.</p>
                   <Link
                     href="/"
                     className="bg-black text-white px-5 py-2 lg:py-3 rounded-lg"
