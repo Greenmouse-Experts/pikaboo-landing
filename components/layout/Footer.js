@@ -26,33 +26,27 @@ const Footer = () => {
                     <Link href="/">Home</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">FAQs</Link>
+                    <Link href="/faqs">FAQs</Link>
                   </li>
                 </ul>
               </div>
               <div>
                 <p className="fs-700 fw-600 mb-6">Accounts</p>
                 <ul className="text-gray-500 fs-500">
-                  <li>
-                    <Link href="/">Household Owners</Link>
+                  <li className="mt-3">
+                    <Link href="https://pikaboo.netlify.app/">Fleet Manager</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">Service Operators</Link>
+                    <Link href="https://pikaboo.netlify.app/">Field Operators</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">Fleet Manager</Link>
-                  </li>
-                  <li className="mt-3">
-                    <Link href="/">Field Operators</Link>
-                  </li>
-                  <li className="mt-3">
-                    <Link href="/">Waste Managers</Link>
+                    <Link href="https://pikaboo.netlify.app/">Waste Managers</Link>
                   </li>
                 </ul>
               </div>
@@ -77,13 +71,10 @@ const Footer = () => {
                 <p className="fs-700 fw-600 mb-6">Legal</p>
                 <ul className="text-gray-500 fs-500">
                   <li>
-                    <Link href="/">Privacy Policy</Link>
+                    <Link href="/privacy">Privacy Policy</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="/">Terms & Conditions</Link>
-                  </li>
-                  <li className="mt-3">
-                    <Link href="/">Cookies</Link>
+                    <Link href="/terms">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
