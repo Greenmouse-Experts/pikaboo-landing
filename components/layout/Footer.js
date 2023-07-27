@@ -40,13 +40,13 @@ const Footer = () => {
                 <p className="fs-700 fw-600 mb-6">Accounts</p>
                 <ul className="text-gray-500 fs-500">
                   <li className="mt-3">
-                    <Link href="https://pikaboo.netlify.app/">Fleet Manager</Link>
+                    <Link href="https://admin.mypikaboo.com/">Fleet Manager</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="https://pikaboo.netlify.app/">Field Operators</Link>
+                    <Link href="https://admin.mypikaboo.com/">Field Operators</Link>
                   </li>
                   <li className="mt-3">
-                    <Link href="https://pikaboo.netlify.app/">Waste Managers</Link>
+                    <Link href="https://admin.mypikaboo.com/">Waste Managers</Link>
                   </li>
                 </ul>
               </div>
@@ -83,8 +83,7 @@ const Footer = () => {
                 <ul className="text-gray-500 ">
                   <li>+234901000000</li>
                   <li className="mt-3">+234902000000</li>
-                  <li className="mt-3">email@pikaboo.com</li>
-                  <li className="mt-3">help@pikaboo.com</li>
+                  <li className="mt-3">help@mypikaboo.com</li>
                 </ul>
               </div>
             </div>

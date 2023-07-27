@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export',
   images: {
+    loader: 'cloudinary',
+    path: '/',
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,6 +14,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+    minimumCacheTTL: 1500000,
   },
 }
 

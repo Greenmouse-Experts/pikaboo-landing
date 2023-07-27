@@ -108,7 +108,7 @@ const FeatureSection = () => {
               general evacuations.
             </p>
             <p className="w-48 mt-6 lg:mt-0 lg:w-auto text-center px-8 rounded-[30px] lg:px-12 lg:py-4 py-3 border text-white">
-              <Link href="/">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </p>
           </div>
         </div>

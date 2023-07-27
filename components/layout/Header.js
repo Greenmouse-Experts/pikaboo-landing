@@ -38,7 +38,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="pl-5">
-          <Link href='https://pikaboo-admin.vercel.app/' className="btn-primary py-2 px-6">Sign in</Link>
+          <Link href='https://admin.mypikaboo.com/' className="btn-primary py-2 px-6">Sign in</Link>
         </div>
       </div>
       <div className="lg:hidden">
@@ -84,13 +84,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className=" mt-8">
-                <Link href="/" className="flex items-center gap-x-2">
+                <Link href="/privacy" className="flex items-center gap-x-2">
                  Privacy & Policy
                 </Link>
               </li>
             </ul>
             <div className="mt-16">
-          <Link href='https://pikaboo.netlify.app/' className="btn-primary py-2 px-6">Sign in</Link>
+          <Link href='https://admin.mypikaboo.com/' className="btn-primary py-2 px-6">Sign in</Link>
         </div>
           </div>
         </div>
