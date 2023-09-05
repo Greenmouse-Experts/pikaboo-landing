@@ -56,8 +56,8 @@ const ContactPage = () => {
                 <div className="bg-[#EEEDEA] relative p-4 lg:p-8">
                   <div className="pt-10">
                     <p className="fw-500 mb-3 text-2xl">Call Us</p>
-                    <p className="fs-500">07012345678</p>
-                    <p className="fs-500">08012345678</p>
+                    <p className="fs-500">07000330333</p>
+                    {/* <p className="fs-500">08012345678</p> */}
                   </div>
                   <Image
                     src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687267267/pikaboo/Group_46846_obiocf.png"

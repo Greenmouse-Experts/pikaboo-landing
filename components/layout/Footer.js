@@ -81,8 +81,7 @@ const Footer = () => {
               <div>
                 <p className="fs-700 fw-600 mb-6">Contact</p>
                 <ul className="text-gray-500 ">
-                  <li>+234901000000</li>
-                  <li className="mt-3">+234902000000</li>
+                  <li>+2347000330333</li>
                   <li className="mt-3">help@mypikaboo.com</li>
                 </ul>
               </div>
