@@ -87,14 +87,51 @@ const FeatureSection = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-5/12 mt-12 lg:mt-0">
-              <Image
+            <div className="lg:w-5/12 relative mt-12 lg:mt-0">
+              {/* <Image
                 src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687187357/pikaboo/Group_46789_ltvmoq.png"
                 alt="video"
                 width={400}
                 height={400}
                 className="w-full lg:mt-24"
+              /> */}
+              <div className="h-[500px] lg:mt-32 relative">
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264888/pikaboo/Group_48027_bfk7sw.gif"
+                alt="service"
+                width={200}
+                height={100}
+                className="absolute w-24 lg:w-24 shadoo rounded-[25px] top-[15%] left-[0%x]"
               />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264888/pikaboo/Group_48024_2_rujfa9.gif"
+                alt="service"
+                width={200}
+                height={100}
+                className="absolute w-24 lg:w-28 shadoo rounded-[25px] bottom-[15%] right-[5%] lg:right-[10%]"
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264925/pikaboo/Group_48028_1_np68oj.gif"
+                alt="service"
+                width={200}
+                height={100}
+                className="absolute w-28 lg:w-28 shadoo rounded-[25px] bottom-[15%] "
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264890/pikaboo/Group_48025_egotml.gif"
+                alt="service"
+                width={200}
+                height={100}
+                className="absolute w-28 lg:w-28 shadoo rounded-[25px] top-[12%] right-[8%]"
+              />
+              <Image
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687270333/pikaboo/Group_48026_1_br2jl5.gif"
+                alt="service"
+                width={200}
+                height={100}
+                className="absolute w-24 lg:w-28 shadoo rounded-[25px] top-[200px] left-[35%]"
+              />
+            </div>
             </div>
           </div>
         </div>

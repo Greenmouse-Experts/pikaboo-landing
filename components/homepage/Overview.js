@@ -1,13 +1,20 @@
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
-import React from "react";
+import ReactPlayer from "react-player";
 
 const OverviewSection = () => {
+  const [hasWindow, setHasWindow] = useState(false);
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setHasWindow(true);
+    }
+  }, []);
   return (
     <>
       <div className="lg:py-0 px-3 lg:px-0">
         <div className="box bg-[#EEEDEA] rounded-[20px] lg:px-12 lg:py-16 p-6 pb-12">
           <div className="lg:flex gap-x-16 items-center">
-            <div className="lg:w-6/12 h-[400px] relative">
+            {/* <div className="lg:w-6/12 h-[400px] relative">
               <Image
                 src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687264888/pikaboo/Group_48027_bfk7sw.gif"
                 alt="service"
@@ -43,6 +50,17 @@ const OverviewSection = () => {
                 height={100}
                 className="absolute w-24 lg:w-28 shadoo rounded-[25px] top-[160px] left-[35%]"
               />
+            </div> */}
+            <div className="lg:w-6/12 h-auto relative">
+            <div>
+            {hasWindow && <ReactPlayer
+              url="https://res.cloudinary.com/greenmouse-tech/video/upload/v1693926601/pikaboo/My_Pikaboo_App_video_2.0_v4f0oz.mp4"
+              alt="player"
+              width="100%"
+              height="100%"
+              controls={true}
+            />}
+            </div>
             </div>
             <div className="lg:w-6/12">
               <p className="fw-500 text-primary">Overview</p>
