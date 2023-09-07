@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+      <title>PikaBoo Waste Management</title>
         <meta
           property="og:title"
           content="PikaBoo Waste Management"
