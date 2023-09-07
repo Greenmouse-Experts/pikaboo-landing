@@ -52,9 +52,9 @@ const OverviewSection = () => {
               />
             </div> */}
             <div className="lg:w-6/12 h-auto relative">
-            <div>
+            <div className="h-[400px]">
             {hasWindow && <ReactPlayer
-              url="https://res.cloudinary.com/greenmouse-tech/video/upload/v1693926601/pikaboo/My_Pikaboo_App_video_2.0_v4f0oz.mp4"
+              url="https://res.cloudinary.com/greenmouse-tech/video/upload/v1694078902/pikaboo/Pikaboo_Promotional_Video_tnydsz.mp4"
               alt="player"
               width="100%"
               height="100%"

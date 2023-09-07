@@ -14,7 +14,7 @@ const AboutPage = () => {
                 <div className="lg:flex items-center flex-row-reverse">
                   <div className="lg:w-6/12">
                     <Image
-                      src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687261332/pikaboo/iPhone_12_Pro_2_spisy3.png"
+                      src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1694079839/pikaboo/about_1_rr8dy8.png"
                       alt="about"
                       width={800}
                       height={500}

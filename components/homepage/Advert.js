@@ -9,7 +9,7 @@ const AdvertSection = () => {
           <div className="lg:h-[450px] p-6 lg:pb-0 lg:pt-10 lg:px-10 bg-primary rounded-[20px] w-full lg:flex items-center  overflow-hidden">
             <div className="lg:w-6/12 overflow-hidden">
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687187357/pikaboo/Rectangle_11_1_bgoftv.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1694079610/pikaboo/playstore_et3yga.png"
                 alt="video"
                 width={400}
                 height={600}

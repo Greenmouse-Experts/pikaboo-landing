@@ -21,11 +21,11 @@ const ControlSection = () => {
                 Get signed in to preferred user type on the app.
               </p>
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180765/pikaboo/Group_46777_wsmy6a.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1694079610/pikaboo/Rectangle_20826_jejtez.png"
                 alt="logo"
-                width={400}
-                height={400}
-                className="absolute w-24 lg:w-44 top-0 right-0"
+                width={200}
+                height={200}
+                className="absolute w-20 lg:w-28 top-8 right-5"
               />
             </div>
             <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#EEEDEA] flex items-end p-4 lg:p-12">
@@ -33,11 +33,11 @@ const ControlSection = () => {
               Request for waste pickup in any location.
               </p>
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180753/pikaboo/Group_46778_tvh2bn.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1694079611/pikaboo/Rectangle_20827_edviyi.png"
                 alt="logo"
-                width={400}
-                height={400}
-                className="absolute w-24 lg:w-44 top-0 right-0"
+                width={200}
+                height={200}
+                className="absolute w-20 lg:w-28 top-8 right-5"
               />
             </div>
             <div className="relative flex h-[200px] lg:h-[280px] rounded-lg bg-[#E8CAA2] flex items-end p-4 lg:p-12">
@@ -45,11 +45,11 @@ const ControlSection = () => {
               Get paid to pickup waste in your preferred area.
               </p>
               <Image
-                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180764/pikaboo/Group_46779_vkzceb.png"
+                src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1694079611/pikaboo/Rectangle_20828_udpgyy.png"
                 alt="logo"
-                width={400}
-                height={400}
-                className="absolute w-24 lg:w-44 top-0 right-0"
+                width={200}
+                height={200}
+                className="absolute w-20 lg:w-28 top-8 right-5"
               />
             </div>
           </div>
