@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const AdvertSection = () => {
@@ -23,6 +24,7 @@ const AdvertSection = () => {
                 minutes.{" "}
               </p>
               <div className="flex mt-12 gap-x-8">
+                <a href={'https://play.google.com/store/apps/details?id=com.pikaboo.app'} target="_blank" rel="noopener noreferrer">
                 <Image
                   src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180750/pikaboo/Group_46781_xqkjsd.png"
                   alt="logo"
@@ -30,8 +32,9 @@ const AdvertSection = () => {
                   height={130}
                   className="w-28 h-10 lg:h-auto lg:w-36"
                 />
+                </a>
                 <Image
-                  src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180750/pikaboo/Group_46781_xqkjsd.png"
+                  src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180749/pikaboo/Group_46782_wufnu9.png"
                   alt="logo"
                   width={200}
                   height={130}

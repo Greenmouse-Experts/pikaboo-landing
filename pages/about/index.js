@@ -127,6 +127,7 @@ const AboutPage = () => {
                   facilitate clean up purposes.
                 </p>
                 <div className="flex mt-12 gap-x-8 justify-center">
+                <a href={'https://play.google.com/store/apps/details?id=com.pikaboo.app'} target="_blank" rel="noopener noreferrer">
                   <Image
                     src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180750/pikaboo/Group_46781_xqkjsd.png"
                     alt="logo"
@@ -134,9 +135,10 @@ const AboutPage = () => {
                     height={130}
                     className="w-36"
                   />
+                  </a>
                   <Image
-                    src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180750/pikaboo/Group_46781_xqkjsd.png"
-                    alt="logo"
+                  src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1687180749/pikaboo/Group_46782_wufnu9.png"
+                  alt="logo"
                     width={200}
                     height={130}
                     className="w-36"
